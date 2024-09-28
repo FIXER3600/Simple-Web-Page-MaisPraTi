@@ -1,0 +1,111 @@
+/* Estilização geral */
+
+body {
+	font-family: 'EB Garamond', serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #2c2c2c;
+	color: #e0e0d1;
+    }
+    
+    /* Header */
+    header {
+	background-color: #3b3a30;
+	color: #d4af37;
+	text-align: center;
+	padding: 1em 0;
+	border-bottom: 2px solid #d4af37;
+    }
+    
+    nav ul {
+	list-style-type: none;
+	padding: 0;
+    }
+    
+    nav ul li {
+	display: inline;
+	margin: 0 15px;
+    }
+    
+    nav ul li a {
+	color: #d4af37;
+	text-decoration: none;
+	font-weight: bold;
+    }
+    
+    nav ul li a:hover {
+	color: #b8860b;
+    }
+    
+    /* Estrutura da página */
+    .container {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+    }
+    
+    section {
+	background-color: #403d3d;
+	flex: 70%;
+	padding: 20px;
+	border-right: 2px solid #d4af37;
+    }
+    
+    aside {
+	background-color: #504a40;
+	flex: 30%;
+	padding: 20px;
+    }
+    p {
+	font-size: 30px; /* Aumenta o tamanho da fonte dos parágrafos */
+	line-height: 1.6; /* Melhor espaçamento entre linhas para legibilidade */
+    }
+    /* Personagens */
+    .personagem {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+    }
+    
+    .personagem img {
+	max-width: 200px;
+	border: 2px solid #d4af37;
+	margin-right: 20px;
+	height: auto;
+    }
+    
+    /* Estilos para aside e links */
+    aside ul {
+	list-style-type: none;
+	padding: 0;
+    }
+    
+    aside ul li a {
+	color: #d4af37;
+	text-decoration: none;
+    }
+    
+    aside ul li a:hover {
+	color: #b8860b;
+    }
+    
+    /* Footer */
+    footer {
+	background-color: #3b3a30;
+	color: #d4af37;
+	text-align: center;
+	padding: 10px;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+    }
+    
+    /* Imagem no section */
+    section img {
+	max-width: 100%;
+	height: auto;
+	margin-top: 10px;
+	border: 2px solid #d4af37;
+    }
+    
